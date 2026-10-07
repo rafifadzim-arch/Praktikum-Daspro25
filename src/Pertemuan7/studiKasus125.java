@@ -8,7 +8,7 @@ public class studiKasus125 {
 
         Scanner rafif = new Scanner(System.in);
 
-        int hargaPerCup = 18000;
+        int hargaPerCup = 16000;
         int jumlahCup, uangBayar;
         int totalHarga, diskon, totalBayar;
         int kembalian, kurang;
@@ -21,8 +21,8 @@ public class studiKasus125 {
        totalHarga = jumlahCup * hargaPerCup;
        diskon = 0;
 
-       if (totalHarga >= 100000) {
-           diskon = totalHarga * 10/100;
+       if (totalHarga >= 10000) {
+           diskon = totalHarga * 6/100;
        }
 
            totalBayar = totalHarga - diskon;
