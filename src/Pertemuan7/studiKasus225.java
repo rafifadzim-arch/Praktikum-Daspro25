@@ -44,27 +44,7 @@ public class studiKasus225 {
                 System.out.println("bukan juara ,  tidak memperoleh dana penghargaan ");
             }
 
-        } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
-
-            System.out.println("jumlah dokumen :");
-            jmlDokumen = rafif.nextInt();
-
-            System.out.println("status pendanaan PKM :");
-            statusPkm = rafif.nextInt();
-
-            if (statusPkm == 1) {
-
-                if (jmlDokumen == 4) {
-                    System.out.println("PKM lolos berhak memperoleh dana penghargaan");
-
-                } else {
-                    System.out.println("dokumen belum lengkap, dana penghargaan tidak di berikan");
-                }
-
-            } else {
-                System.out.println("tidak lolos , tidak memperoleh dana penghargaan");
-            }
-
+       
         } else {
             System.out.println("jenis kegiatan di luar ketentuan , tidak memperoleh dana penghargaan");
         }
