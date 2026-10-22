@@ -31,18 +31,13 @@ public class studiKasus225 {
 
                 if (jmlDokumen == 4) {
                     System.out.println("memenuhi ketentuan , dana penghargaan di berikan");
-                    System.out.println("Nama Mahasiswa: " + namaMahasiswa);
-                    System.out.println("Jenis Kegiatan: ");
-                    System.out.println("Peringkat Juara: ");
-                    System.out.println("jumlah Dokumen: ");
-
+                    
+                   
                 } else {
                     System.out.println("dokumen belum lengkap , dana penghargaan tidak di berikan");
                 }
 
-            } else {
-                System.out.println("bukan juara ,  tidak memperoleh dana penghargaan ");
-            }
+            } else {}
         } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
 
             System.out.println("jumlah dokumen :");

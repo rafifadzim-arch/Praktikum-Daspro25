@@ -21,7 +21,7 @@ public class Depotair_25 {
         System.out.print("masukan rata rata perjam");
         rataRataPerjam = rafif.nextDouble();
 
-        penPerJam = jumGalon*galonTerjual*lamaOprasi ;
+        // penPerJam = jumGalon*galonTerjual*lamaOprasi ;
         
 
 
