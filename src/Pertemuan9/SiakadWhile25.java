@@ -1,3 +1,4 @@
+// ganti angka 19 -> 20
 import java.util.Scanner;
 public class SiakadWhile25 {
     public static void main(String[] args) {

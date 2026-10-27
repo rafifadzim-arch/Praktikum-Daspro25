@@ -1,3 +1,6 @@
+//harga kopi = 11000
+//harga teh = 6000
+//harga roti = 16000
 import java.util.Scanner;
 
 public class KafeDoWhile25 {
