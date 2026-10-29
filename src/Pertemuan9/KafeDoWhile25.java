@@ -1,3 +1,4 @@
+
 //harga kopi = 11000
 //harga teh = 6000
 //harga roti = 16000
@@ -30,7 +31,6 @@ public class KafeDoWhile25 {
             System.out.println("Total yang harus di bayar: Rp " + totalHarga);
             rafif.nextLine();
         } while (true);
-
         System.out.println("Semua transaksi selesai.");
         rafif.close();
     }
