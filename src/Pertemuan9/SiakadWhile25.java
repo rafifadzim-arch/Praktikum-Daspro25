@@ -2,7 +2,6 @@
 import java.util.Scanner;
 public class SiakadWhile25 {
     public static void main(String[] args) {
-
         Scanner rafif = new Scanner(System.in);
     
         int nilai,jml , i = 0;
