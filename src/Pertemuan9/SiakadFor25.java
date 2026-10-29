@@ -2,9 +2,7 @@
 //batas perulangan for = 10
 //batas kelulusan = 58
 import java.util.Scanner;
-
 public class SiakadFor25 {
-
     public static void main(String[] args) {
 
         Scanner rafif = new Scanner(System.in);
