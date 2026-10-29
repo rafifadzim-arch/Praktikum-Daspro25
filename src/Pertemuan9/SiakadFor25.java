@@ -18,11 +18,6 @@ public class SiakadFor25 {
             if (nilai < terendah) {
                 terendah = nilai;
             }
-            if (nilai >= 58) {
-                lulus += 1;
-            } else {
-                tidakLulus += 1;
-            }
         }
         System.out.println("nilai tertinggi : " + tertinggi);
         System.out.println("nilai terendah : " + terendah);
