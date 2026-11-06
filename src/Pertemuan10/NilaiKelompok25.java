@@ -1,5 +1,5 @@
 package Pertemuan10;
-//Pertanyaan No3
+//ORI
 import java.util.Scanner;
 
 public class NilaiKelompok25 {
@@ -23,7 +23,7 @@ public class NilaiKelompok25 {
 
             while (nomorKelompok <= jumlahKelompok) {
                 System.out.println("Kelompok " + nomorKelompok);
-                int totalNilai = 0;
+                double totalNilai = 0;
                 // nomorKelompok++;
 
                 for (int j = 1; j <= jumlahPenilai; j++) {
