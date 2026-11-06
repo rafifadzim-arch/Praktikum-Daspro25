@@ -1,5 +1,5 @@
 package Pertemuan10;
-
+//Pertanyaan No3
 import java.util.Scanner;
 
 public class NilaiKelompok25 {
@@ -10,6 +10,9 @@ public class NilaiKelompok25 {
         int jumlahKelompok = rafif.nextInt();
         System.out.print("Masukan Jumlah Penilai : ");
         int jumlahPenilai = rafif.nextInt();
+
+
+
 
         if (jumlahKelompok <= 0 || jumlahPenilai <= 0) {
             System.out.println("Jumlah Kelompok Dan Penilai Harus > 0.");
@@ -33,6 +36,8 @@ public class NilaiKelompok25 {
                         }
                     } while (nilai < 0 || nilai > 100);
                     totalNilai += nilai;
+
+
 
                     
                     
