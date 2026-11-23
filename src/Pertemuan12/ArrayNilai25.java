@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayNilai25 {
     public static void main(String[] args) {
         
-        int[]nilaiAkhir = new int[10];
+        int[]nilaiAkhir = new int[11];
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
@@ -14,7 +14,7 @@ public class ArrayNilai25 {
         }
             for (int i = 0; i < nilaiAkhir.length; i++) {
                 String status = (nilaiAkhir[i] > 70) ? "LuLus" : "Tidak LuLus";
-                System.out.println("Mahasiswa Ke-" + ( i + 1 ) + ": " + nilaiAkhir[i] + " (LULUS) ");
+                System.out.println("Mahasiswa Ke-" + ( i + 1 ) + ": " + nilaiAkhir[i] + " (" + status + ") ");
             }
         }
     }
