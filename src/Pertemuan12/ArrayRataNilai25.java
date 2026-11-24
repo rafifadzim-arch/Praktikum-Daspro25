@@ -5,7 +5,9 @@ public class ArrayRataNilai25 {
 public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     
-    int[] nilaiMhs = new int[11];
+    System.out.print("Masukan jumlah Mahasiswa: ");
+    int jmlMhs = input.nextInt();
+    int[] nilaiMhs = new int [jmlMhs];
     int total = 0;
     double rata2;
 
