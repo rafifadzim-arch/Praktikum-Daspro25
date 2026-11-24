@@ -5,7 +5,7 @@ public class ArrayRataNilai25 {
 public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     
-    int[] nilaiMhs = new int[10];
+    int[] nilaiMhs = new int[11];
     int total = 0;
     double rata2;
 
